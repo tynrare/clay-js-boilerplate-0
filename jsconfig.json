@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "checkJs": true
+    },
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "baseUrl": ".",
+        "paths": {
+            "@app/*":  ["./src/*"]
+        },
+        "resolveJsonModule": true,
+        "disableSizeLimit": true,
+        "allowUmdGlobalAccess": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": ["node_modules"]
+}
