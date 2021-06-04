@@ -1,0 +1,28 @@
+{
+  "name": "clay-js-boilerplate-0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tynrare/clay-js-boilerplate-0.git"
+  },
+  "author": "tynrare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tynrare/clay-js-boilerplate-0/issues"
+  },
+  "homepage": "https://github.com/tynrare/clay-js-boilerplate-0#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
